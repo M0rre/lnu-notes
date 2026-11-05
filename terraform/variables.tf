@@ -19,7 +19,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "Name of an EC2 key pair that already exists in this region, for SSH to the web instance."
   type        = string
-  default     = "2dv705"
+  default     = "aws-2dv705"
 }
 
 variable "admin_cidr" {
